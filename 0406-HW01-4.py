@@ -16,7 +16,7 @@ while True:
             list1.append(num1)
             print(list1)
             
-    if len(list1) > 6:
+    if len(list1) > 5:
         break
         
 print()
@@ -28,9 +28,10 @@ while True:
         if num2 >= 1 and num2 <=49:
             list2.append(num2)
             print(list2)
-            
-    if len(list2) > 6:
+
+    if len(list2) > 5:
         break
+
 print()
         
 for m in range(len(list1)):
